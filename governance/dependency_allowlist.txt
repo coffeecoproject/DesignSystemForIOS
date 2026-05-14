@@ -1,0 +1,2 @@
+# Dependency allowlist (one package URL per line)
+# This module currently has no external package dependencies.

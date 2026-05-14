@@ -1,0 +1,195 @@
+Sources/DesignSystemForIOS/Components/DSButton.swift: public init(
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let background: DSColorToken
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let border: DSColorToken
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let cornerRadius: CGFloat
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let foreground: DSColorToken
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let height: CGFloat
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let horizontalPadding: CGFloat
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let typography: DSFontToken
+Sources/DesignSystemForIOS/Components/DSButton.swift: public let usesGlassMaterial: Bool
+Sources/DesignSystemForIOS/Components/DSButton.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/DSButton.swift:public enum DSButtonSize: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/DSButton.swift:public enum DSButtonVariant: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/DSButton.swift:public extension DSButton {
+Sources/DesignSystemForIOS/Components/DSButton.swift:public struct DSButton: View {
+Sources/DesignSystemForIOS/Components/DSButton.swift:public struct DSButtonStyleSpec: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/DSTag.swift: public init(
+Sources/DesignSystemForIOS/Components/DSTag.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/DSTag.swift:public enum DSTagVariant: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/DSTag.swift:public struct DSTag: View {
+Sources/DesignSystemForIOS/Components/Feedback/DSInlineLoadingView.swift: public init(
+Sources/DesignSystemForIOS/Components/Feedback/DSInlineLoadingView.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/Feedback/DSInlineLoadingView.swift:public struct DSInlineLoadingView: View {
+Sources/DesignSystemForIOS/Components/Feedback/DSSheetScaffold.swift: public init(
+Sources/DesignSystemForIOS/Components/Feedback/DSSheetScaffold.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/Feedback/DSSheetScaffold.swift:public struct DSSheetScaffold<Content: View, Footer: View>: View {
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift: public init(
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift: public let background: DSColorToken
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift: public let border: DSColorToken
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift: public let iconColor: DSColorToken
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift: public let textColor: DSColorToken
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift: public let usesGlassMaterial: Bool
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift:public enum DSToastKind: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift:public extension DSToastBanner {
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift:public struct DSToastBanner: View {
+Sources/DesignSystemForIOS/Components/Feedback/DSToastBanner.swift:public struct DSToastStyleSpec: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public init(
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public let background: DSColorToken
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public let border: DSColorToken
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public let cornerRadius: CGFloat
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public let message: DSColorToken
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public let placeholder: DSColorToken
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public let text: DSColorToken
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public let usesGlassMaterial: Bool
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift:public enum DSFormFieldState: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift:public extension DSFormTextField {
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift:public struct DSFormFieldStyleSpec: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/Form/DSFormTextField.swift:public struct DSFormTextField: View {
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public init(
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public let accessoryColor: DSColorToken
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public let background: DSColorToken
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public let border: DSColorToken
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public let subtitleColor: DSColorToken
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public let titleColor: DSColorToken
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public let usesGlassMaterial: Bool
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift:public enum DSListRowAccessory: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift:public extension DSListRow {
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift:public struct DSListRow: View {
+Sources/DesignSystemForIOS/Components/List/DSListRow.swift:public struct DSListRowStyleSpec: Sendable, Equatable {
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public init(
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let accessibilityLabel: String
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let action: () -> Void
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let actionColor: DSColorToken
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let background: DSColorToken
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let border: DSColorToken
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let subtitleColor: DSColorToken
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let systemImage: String
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let titleColor: DSColorToken
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public let usesGlassMaterial: Bool
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift: public var body: some View {
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift:public extension DSTopBar {
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift:public struct DSTopBar: View {
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift:public struct DSTopBarAction {
+Sources/DesignSystemForIOS/Components/Navigation/DSTopBar.swift:public struct DSTopBarStyleSpec: Sendable, Equatable {
+Sources/DesignSystemForIOS/DesignSystem.swift: public enum Component {
+Sources/DesignSystemForIOS/DesignSystem.swift: public enum Foundation {
+Sources/DesignSystemForIOS/DesignSystem.swift: public enum Primitive {
+Sources/DesignSystemForIOS/DesignSystem.swift: public enum Semantic {
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias AccessibilityPolicy = DSAccessibilityPolicy
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias AccessibilitySnapshot = DSAccessibilitySnapshot
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Button = DSButton
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Color = DSCoreColorTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Color = DSSemanticColorTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Container = DSContainer
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Dimension = DSDimensionTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias DynamicTypePolicy = DSDynamicTypePolicy
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias FormTextField = DSFormTextField
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias InlineLoadingView = DSInlineLoadingView
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias ListRow = DSListRow
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Motion = DSMotionTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Radius = DSRadiusTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Shadow = DSShadowTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias SheetScaffold = DSSheetScaffold
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Spacing = DSSemanticSpacingTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Spacing = DSSpacingTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias State = DSStateView
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Stroke = DSStrokeTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Surface = DSSurface
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias SurfaceCapabilitySnapshot = DSStyleCapabilitySnapshot
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Tag = DSTag
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias ThemeMode = DSThemeMode
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias ToastBanner = DSToastBanner
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias TopBar = DSTopBar
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias Typography = DSTypographyTokens
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias VisualPolicy = DSVisualStylePolicy
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias VisualStyle = DSVisualStyle
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias VisualStyleResolutionContext = DSVisualStyleResolutionContext
+Sources/DesignSystemForIOS/DesignSystem.swift: public typealias VisualStyleResolver = DSVisualStyleResolver
+Sources/DesignSystemForIOS/DesignSystem.swift:public enum DesignSystem {
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift: public init(
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift: public var dynamicTypePolicy: DSDynamicTypePolicy
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift: public var minimumHitTarget: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift: public var voiceOverHintsEnabled: Bool
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift:public enum DSDynamicTypePolicy: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift:public extension EnvironmentValues {
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift:public extension View {
+Sources/DesignSystemForIOS/Foundation/DSAccessibilityPolicy.swift:public struct DSAccessibilityPolicy: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift: public func resolved(in scheme: ColorScheme) -> Color {
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift: public func rgba(for scheme: ColorScheme) -> DSRGBA {
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift: public init(
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift: public let dark: DSRGBA
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift: public let light: DSRGBA
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift:public extension Color {
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift:public extension DSRGBA {
+Sources/DesignSystemForIOS/Foundation/DSColorToken.swift:public struct DSColorToken: Sendable, Equatable, Hashable {
+Sources/DesignSystemForIOS/Foundation/DSCoreColorTokens.swift:public enum DSCoreColorTokens {
+Sources/DesignSystemForIOS/Foundation/DSDimensionTokens.swift:public enum DSDimensionTokens {
+Sources/DesignSystemForIOS/Foundation/DSMotionTokens.swift:public enum DSMotionTokens {
+Sources/DesignSystemForIOS/Foundation/DSRGBA.swift: public init(
+Sources/DesignSystemForIOS/Foundation/DSRGBA.swift: public let alpha: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSRGBA.swift: public let blue: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSRGBA.swift: public let green: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSRGBA.swift: public let red: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSRGBA.swift:public struct DSRGBA: Sendable, Equatable, Hashable {
+Sources/DesignSystemForIOS/Foundation/DSRadiusTokens.swift:public enum DSRadiusTokens {
+Sources/DesignSystemForIOS/Foundation/DSShadowTokens.swift: public init(
+Sources/DesignSystemForIOS/Foundation/DSShadowTokens.swift: public let opacity: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSShadowTokens.swift: public let radius: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSShadowTokens.swift: public let y: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSShadowTokens.swift:public enum DSShadowTokens {
+Sources/DesignSystemForIOS/Foundation/DSShadowTokens.swift:public struct DSShadowToken: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSSpacingTokens.swift:public enum DSSpacingTokens {
+Sources/DesignSystemForIOS/Foundation/DSStrokeTokens.swift:public enum DSStrokeTokens {
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift: public init(
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift: public let design: DSFontDesign
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift: public let size: CGFloat
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift: public let weight: DSFontWeight
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift: public var font: Font {
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift:public enum DSFontDesign: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift:public enum DSFontWeight: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift:public enum DSTypographyTokens {
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift:public extension View {
+Sources/DesignSystemForIOS/Foundation/DSTypographyTokens.swift:public struct DSFontToken: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public func resolveColorScheme(system: ColorScheme) -> ColorScheme {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public func resolveVisualStyle(
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public init(
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public init(prefersOpaqueSurface: Bool? = nil) {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public let accessibility: DSAccessibilitySnapshot
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public let increasedContrastEnabled: Bool
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public let prefersOpaqueSurface: Bool?
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public let reduceTransparencyEnabled: Bool
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public let supportsGlassMaterial: Bool
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public var prefersOpaqueSurface: Bool {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public var themeMode: DSThemeMode
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift: public var visualStyle: DSVisualStyle
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public enum DSThemeMode: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public enum DSVisualStyle: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public enum DSVisualStyleResolver {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public extension EnvironmentValues {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public extension View {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public struct DSAccessibilitySnapshot: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public struct DSStyleCapabilitySnapshot: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public struct DSVisualStylePolicy: Sendable, Equatable {
+Sources/DesignSystemForIOS/Foundation/DSVisualStylePolicy.swift:public struct DSVisualStyleResolutionContext: Sendable, Equatable {
+Sources/DesignSystemForIOS/Primitives/DSContainer.swift: public init(
+Sources/DesignSystemForIOS/Primitives/DSContainer.swift: public var body: some View {
+Sources/DesignSystemForIOS/Primitives/DSContainer.swift:public struct DSContainer<Content: View>: View {
+Sources/DesignSystemForIOS/Primitives/DSStateView.swift: public enum Kind: Equatable {
+Sources/DesignSystemForIOS/Primitives/DSStateView.swift: public init(
+Sources/DesignSystemForIOS/Primitives/DSStateView.swift: public var body: some View {
+Sources/DesignSystemForIOS/Primitives/DSStateView.swift:public struct DSStateView: View {
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public enum Style: Sendable, Equatable {
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public init(
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public let fillToken: DSColorToken
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public let shadow: DSShadowToken
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public let shadowColorToken: DSColorToken
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public let strokeToken: DSColorToken
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public let usesGlassMaterial: Bool
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public struct RenderSpec: Sendable, Equatable {
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift: public var body: some View {
+Sources/DesignSystemForIOS/Primitives/DSSurface.swift:public struct DSSurface<Content: View>: View {
+Sources/DesignSystemForIOS/Semantic/DSSemanticColorTokens.swift:public enum DSSemanticColorTokens {
+Sources/DesignSystemForIOS/Semantic/DSSemanticSpacingTokens.swift:public enum DSSemanticSpacingTokens {
